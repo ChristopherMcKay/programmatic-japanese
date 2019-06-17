@@ -1,12 +1,9 @@
-# Programmatic Japanese
-
+Programmatic Japanese
 A language learning resource aimed at developers who are interested in Japanese.
 
-## Currently working
-
+Currently working
 Able to send GET requests to /api/{consonant}/ and get JSON response
 
-```JSON
 {
 "consonant": "k",
 "phonemes": {
@@ -17,23 +14,21 @@ Able to send GET requests to /api/{consonant}/ and get JSON response
 "o": "こ"
     }
 }
-```
+Connected Mongoose / mongodb
 
-- Connected Mongoose / mongodb
+Added login / user functionality
 
-- Added login / user functionality
+Lets user build own vocabulary by forming JSON objects
 
-- Lets user build own vocabulary by forming JSON objects
+handles a successful sign up (currently returns json response)
+
+merged profile page
+
+made profile show word bank
+
+completed flash card page
 
 ## To do
-
-- handle a successful sign up (currently returns json response)
-
-- merge profile page
-
-- have profile show word bank
-
-- flash card page
 
 
 Big thanks to [Wanakana.js](https://wanakana.com)
